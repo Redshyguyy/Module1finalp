@@ -1,0 +1,160 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+body {
+    text-align: center;
+    color: black;
+    font-family: 'Arvo', serif;
+    background-color: lightyellow;  
+}
+
+.actividadimagen{
+    width: 300px;
+    height: 180px;
+    border-radius: 40px;
+    margin-bottom: 5px;    
+}
+
+.hero {
+    display: block;
+    background-image: url("images/cln.png");
+    background-size: cover;
+    width: 1080px;
+    height: 340px;
+    text-align: center;
+    color: white;
+    background-position: center;
+    margin: 0  auto;
+    border-radius: 10px;
+
+}
+
+#title {
+   text-align: center;
+   display: block;
+   padding-top: 150px;
+    text-shadow: 0px 0px 5px black;
+    
+}
+
+#subtitle {
+    text-shadow: 0px 0px 5px black;
+   
+}
+
+.Activity {
+    width: 300px;
+    height: 450px;
+    font-size: 18px;
+    background-color: #00a896;
+    border-radius: 15px;
+    flex-direction: column;
+    margin: 10px;
+   
+}
+        
+ .Conteiner {
+     border: 1px solid #073b4c;
+     margin: 1px auto;
+     display: flex;
+     background-color: #354f52;
+     justify-content: space-around;
+     width: 1080px;
+    height: 470px;
+     align-items: baseline;
+     color: white;
+     border-radius: 30px;
+     flex-wrap: wrap;
+              
+    }
+    
+    #header{
+        background-color: #05668d;
+        margin: 9px auto;
+        padding: 20px;
+        font-size: 40px;
+        width: 800px;
+        color: white
+        
+    }
+     
+.guide {
+    background-color: #02c39a;
+    display: flex;
+    width: 780px;
+    margin: 30px auto;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    border: 4px solid #073b4c
+    
+}
+
+#guidetext {
+    
+    width: 380px;
+    padding: 10px;
+    color: white
+}
+
+#guidephoto  {
+    
+    width: 400px;
+}
+
+#guidetitle {
+    border-bottom: 3px solid white;
+    font-size: 30px;
+     
+}
+
+#avatar {
+    width: 270px;
+    border-radius: 50%;
+
+}
+
+.boton {
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    display: block;
+    font-weight: bold;   
+}
+
+.boton:hover {
+    
+    box-shadow: inset 400px 0 0 0 black;
+  color: white;
+
+  
+  
+    
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
